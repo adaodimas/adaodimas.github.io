@@ -1,0 +1,140 @@
+/* Estilo para o body */
+body {
+  background-color: #333;
+}
+
+/* Estilo para a coluna da barra lateral */
+.sidebar {
+  background-color: #222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os itens na barra lateral */
+.sidebar-item {
+  margin-bottom: 20px;
+}
+
+/* Estilo para os ícones */
+.sidebar a i {
+  margin-right: 10px; /* Adicionei mais espaço entre o ícone e o texto */
+}
+
+/* Estilo para os links */
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+  font-size: 18px;
+}
+
+/* Estilo para os links quando estão hover */
+.sidebar a:hover {
+  background-color: #555;
+  border-left-color: #007bff;
+  color: #007bff !important;
+}
+
+/* Estilo para o perfil */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para a foto de perfil */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  margin-bottom: 10px;
+  border: 5px solid #fff; /* Adiciona uma borda branca */
+}
+
+/* Estilo para o nome do perfil */
+.profile-name {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Estilo para a área de postagem */
+.post-form {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Afasta a área de postagem do topo */
+}
+
+/* Estilo para a caixa de texto */
+.post-form textarea {
+  width: 100%;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none; /* Impede redimensionamento */
+}
+
+/* Estilo para o botão de postar */
+.post-form button {
+  width: 100%;
+}
+
+/* Estilo para as opções de postagem */
+.post-form .btn-group button {
+  border-radius: 0;
+}
+
+/* Estilo para as publicações */
+.post {
+  background-color: #444;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para a foto de perfil nas publicações */
+.post-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  margin-right: 10px;
+}
+
+/* Estilo para o nome do autor da publicação */
+.post-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Estilo para o tempo de postagem */
+.post-time {
+  color: #fff;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* Estilo para o conteúdo da publicação */
+.post-content {
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Estilo para as ações da publicação */
+.post-actions {
+  margin-top: 10px;
+}
+
+/* Estilo para os botões de ação da publicação */
+.post-actions button {
+  margin-right: 10px;
+}

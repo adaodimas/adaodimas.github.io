@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <!-- Adicionando Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicionando Font Awesome para ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css"> <!-- Importando o arquivo CSS -->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Coluna da barra lateral -->
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="sidebar">
+                    <div class="profile text-center mb-4">
+                        <img src="assets/imgs/profile.jpg" alt="Foto de perfil" class="profile-pic">
+                        <span class="profile-name">Adão Dimas Martins Junior</span>
+                    </div>
+                    <div class="sidebar-item"><a href="#" class="active"><i class="fas fa-home fa-lg"></i>Início</a></div>
+                    <div class="sidebar-item"><a href="#"><i class="fas fa-search fa-lg"></i>Pesquisa</a></div>
+                    <div class="sidebar-item"><a href="#"><i class="fas fa-comments fa-lg"></i>Bate-Papo</a></div>
+                    <div class="sidebar-item"><a href="#"><i class="fas fa-users fa-lg"></i>Comunidades</a></div>
+                    <div class="sidebar-item"><a href="#"><i class="fas fa-user fa-lg"></i>Perfil</a></div>
+                </div>
+            </div>
+            <!-- Coluna do conteúdo principal -->
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="content">
+                    <!-- Área de postagem -->
+                    <div class="post-form text-center mb-4">
+                        <form>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Qual a sua ideia hoje?" rows="4" style="resize: none;"></textarea>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Opções de postagem">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-image"></i></button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-video"></i></button>
+                                <button type="button" class="btn btn-primary"><i class="fas fa-paperclip"></i></button>
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-pencil-alt"></i> Postar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Feed de publicações -->
+                    <div class="feed">
+                        <!-- Publicação com imagem -->
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="assets/imgs/profile.jpg" alt="Foto de perfil" class="post-profile-pic">
+                                <div class="post-info">
+                                    <span class="post-name">Adão Dimas Martins Junior</span>
+                                    <span class="post-time">2 horas atrás</span>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <img src="assets/imgs/image.jpeg" alt="Imagem de exemplo" class="img-fluid">
+                                <p></p>
+                            </div>
+                            <div class="post-actions">
+                                <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button>
+                                <button class="btn btn-primary"><i class="fas fa-comment"></i></button>
+                                <button class="btn btn-primary"><i class="fas fa-share"></i></button>
+                            </div>
+                        </div>
+                        <!-- Publicação com vídeo -->
+                        <div class="post">
+                            <div class="post-header">
+                                <img src="assets/imgs/profile.jpg" alt="Foto de perfil" class="post-profile-pic">
+                                <div class="post-info">
+                                    <span class="post-name">Adão Dimas Martins Junior</span>
+                                    <span class="post-time">Ontem</span>
+                                </div>
+                            </div>
+                            <div class="post-content">
+                                <video controls class="img-fluid">
+                                    <source src="assets/imgs/MIConnect.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeo HTML5.
+                                </video>
+                                <p>Recomendo abrir o video em anexo, pois o inerido no site está sem som, não consegui resolver o problema devido ao prazo de entregua.</p>
+                            </div>
+                            <div class="post-actions">
+                                <button class="btn btn-primary"><i class="fas fa-thumbs-up"></i></button>
+                                <button class="btn btn-primary"><i class="fas fa-comment"></i></button>
+                                <button class="btn btn-primary"><i class="fas fa-share"></i></button>
+                            </div>
+                        </div>
+                        <!-- Outras postagens fictícias -->
+                        <!-- Adicione mais postagens aqui conforme necessário -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicionando Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Adicionando Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
